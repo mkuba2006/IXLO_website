@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@100;400&family=Poppins:wght@800&family=Shantell+Sans:wght@300&display=swap");
+html {
+  font-family: "Indie Flower", cursive;
+  color: #bc6ff1;
+}
+
+.toggle .line_one {
+  transform: rotate(-45deg) translate(-9px, 4px);
+}
+
+.toggle .line_dwo {
+  opacity: 0;
+}
+
+.toggle .line_three {
+  transform: rotate(45deg) translate(-9px, -4px);
+}
+
+.overlay {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(27, 32, 44, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  transition: 0.3s;
+}
+
+body.open .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+aside {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  padding-top: 60px;
+  width: 260px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.918);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  translate: 100% 0;
+  transition: 0.3s;
+}
+
+body.open aside {
+  translate: 0;
+}
+
+aside p, aside ul, aside p {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+aside p:first-of-type {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 80px;
+}
+
+#burger1 {
+  display: block;
+  z-index: 11;
+  position: fixed;
+  right: 80px;
+  top: 65px;
+}
+
+#burger1 div {
+  display: block;
+  cursor: pointer;
+  width: 26px;
+  height: 4px;
+  margin: 5px;
+  background-color: #fdfdfd;
+  padding-top: 10%;
+  padding-left: 3%;
+  transition: all 0.26s ease;
+  z-index: 3;
+}
+
+#burger1 #jeden,
+#burger1 #dwa,
+#burger1 #trzy {
+  display: block;
+  cursor: pointer;
+  width: 30px;
+}
+
+#nav > div:nth-child(2) {
+  display: none;
+}
+
+#nav1 {
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  font-family: "Indie Flower", cursive;
+  padding-top: 20px;
+  background-color: rgba(0, 0, 0, 0.664);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  color: white;
+  height: 150px;
+}
+#nav1 .in-nav {
+  padding: 0.3% 5% 0.3% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav1 #nav1.scroll-down {
+  top: 0;
+  box-shadow: 0 10px 50px rgba(0, 0, 0, 0.14);
+}
+#nav1 #hrf {
+  text-decoration: none;
+}
+#nav1 img {
+  width: 350px;
+  min-width: 300px;
+}/*# sourceMappingURL=nav.css.map */
