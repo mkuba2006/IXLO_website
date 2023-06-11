@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@100;400&family=Poppins:wght@800&family=Shantell+Sans:wght@300&display=swap");
 html {
   font-family: "Indie Flower", cursive;
-  color: #bc6ff1;
+  color: rgba(255, 255, 255, 0.884);
 }
 
 .toggle .line_one {
@@ -14,67 +14,6 @@ html {
 
 .toggle .line_three {
   transform: rotate(45deg) translate(-9px, -4px);
-}
-
-.overlay {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(27, 32, 44, 0.7);
-  visibility: hidden;
-  opacity: 0;
-  -webkit-backdrop-filter: blur(6px);
-          backdrop-filter: blur(6px);
-  transition: 0.3s;
-}
-
-body.open .overlay {
-  visibility: visible;
-  opacity: 1;
-}
-
-aside {
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  right: 0;
-  padding: 20px;
-  padding-top: 60px;
-  width: 260px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.918);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-  translate: 100% 0;
-  transition: 0.3s;
-}
-
-body.open aside {
-  translate: 0;
-}
-
-aside p, aside ul, aside p {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  height: 100px;
-  text-decoration: none;
-  color: aliceblue;
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-}
-
-aside p:first-of-type {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  text-decoration: none;
-  color: aliceblue;
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-  margin-top: 80px;
 }
 
 #burger1 {
@@ -138,4 +77,98 @@ aside p:first-of-type {
 #nav1 img {
   width: 350px;
   min-width: 300px;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(27, 32, 44, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+  transition: 0.3s;
+}
+
+body.open .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+aside {
+  color: rgba(255, 255, 255, 0.884);
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  padding: 20px 0;
+  padding-top: 60px;
+  width: 260px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.918);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  translate: 100% 0;
+  transition: 0.3s;
+}
+
+body.open aside {
+  translate: 0;
+}
+
+aside p, aside ul, aside p {
+  transition: 0.3s;
+  padding-left: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+aside p:first-of-type {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 80px;
+}
+
+aside > ul {
+  margin: 0 0 15px 0;
+  padding-left: 40px;
+  display: none;
+  height: auto;
+}
+aside > ul li {
+  font-size: 18px;
+  color: #fdfdfd;
+  list-style: none;
+  cursor: pointer;
+}
+aside > ul li::before {
+  content: "-";
+}
+
+.pactive {
+  background-color: #fffdfb;
+  color: black;
+  -webkit-text-emphasis-color: black;
+          text-emphasis-color: black;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }/*# sourceMappingURL=nav.css.map */

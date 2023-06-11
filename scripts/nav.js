@@ -7,7 +7,6 @@ const scroll = () =>{
 document.addEventListener('scroll', scroll,{passive: true});
 
 
-
 const navl = document.querySelector("#burger1")
 const navi = document.querySelector("#secret")
 const nav_links = navi.querySelectorAll('a');
@@ -38,3 +37,16 @@ for(let i=0;i<as.length;i++){
     burger.classList.toggle("toggle");
   })
 }
+
+const p = document.querySelectorAll("#dropd");
+const ul = document.querySelectorAll("body > aside > ul");
+p.forEach(a=>{
+  a.addEventListener('click',()=>{
+    // ul.forEach(u=>{
+    //   u.classList.remove('active');
+    // })
+    a.classList.toggle('pactive');
+    var next = a.nextElementSibling;
+    next.classList.toggle('active');
+  })
+})
