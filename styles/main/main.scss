@@ -12,4 +12,11 @@
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
+    z-index: 5;
+    margin-bottom: 270px;
+}
+footer{
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
 }

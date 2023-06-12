@@ -29,24 +29,41 @@ hrefs.forEach(href=>{
   })
 })
 
-const toggleMenu = () => document.body.classList.toggle('open');
-const as = document.querySelectorAll("body aside a");
-for(let i=0;i<as.length;i++){
-  as[i].addEventListener('click',()=>{
-    document.body.classList.remove('open');
-    burger.classList.toggle("toggle");
-  })
-}
+
+
 
 const p = document.querySelectorAll("#dropd");
 const ul = document.querySelectorAll("body > aside > ul");
+
+const toggleMenu = () => {
+  document.body.classList.toggle('open');
+  const aside = document.querySelectorAll('aside p');
+  ScrollReveal().reveal(aside, {origin: 'left', distance: '100%', interval: 100});
+} 
+
 p.forEach(a=>{
   a.addEventListener('click',()=>{
-    // ul.forEach(u=>{
-    //   u.classList.remove('active');
-    // })
-    a.classList.toggle('pactive');
-    var next = a.nextElementSibling;
-    next.classList.toggle('active');
+    if(a.classList.contains('pactive')){
+      a.classList.remove('pactive');
+      const next = a.nextElementSibling;
+      let lis = next.querySelectorAll('li')
+      next.classList.remove('active');
+    }else{
+      p.forEach(e=>{
+        if(e.classList.contains('pactive')){
+          e.classList.remove('pactive');
+          const next = e.nextElementSibling;
+          next.classList.toggle('active');
+        }
+      })
+      a.classList.toggle('pactive');
+      const next = a.nextElementSibling;
+      let lis = next.querySelectorAll('li')
+      next.classList.toggle('active');
+    }
   })
 })
+const year = new Date().getFullYear();
+console.log(year);
+document.getElementById('ppp').textContent += ' '+ year;
+document.getElementById('yyy').textContent += ' '+ year;

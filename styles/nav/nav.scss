@@ -115,6 +115,8 @@ aside{
   box-shadow: 0 0 20px rgb(0 0 0 / 70%);
   translate: 100% 0;
   transition: 0.3s;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 body.open aside{
   translate: 0;
@@ -150,10 +152,11 @@ aside > ul{
   display: none;
   height: auto;
   li{
-    font-size: 18px;
-    color: #fdfdfd;
+    font-size: 16px;
+    color: #c7b2b2;
     list-style: none;
     cursor: pointer;
+    margin-bottom: 4px;
   }
   li::before {
     content: "-";
@@ -169,41 +172,6 @@ aside > ul{
   flex-direction: column;
   align-items: start;
 }
-
-
-// #dropd{
-//     user-select: none;
-//     color: aliceblue;
-//     font-size: 20px;
-//     height: min-content;
-// }
-// #drop_ul{
-//     user-select: none;
-//     color: aliceblue;
-//     background: transparent;
-//     height: fit-content;
-//     background: red;
-//     border-radius: 0;
-// }
-// #drop_li{
-//     user-select: none;
-//     color: aliceblue;
-//     background: red;
-//     padding: 0;
-//     margin: 0;
-//     height: min-content;
-// }
-// #drop_a{
-//     user-select: none;
-//     color: aliceblue;
-//     font-size: 25px;
-//     padding: 5px;
-//     margin: 0;
-//     height: min-content;
-//     user-select: none;
-// }
-
-
 
 
 

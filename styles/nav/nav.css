@@ -113,6 +113,8 @@ aside {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   translate: 100% 0;
   transition: 0.3s;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 body.open aside {
@@ -151,10 +153,11 @@ aside > ul {
   height: auto;
 }
 aside > ul li {
-  font-size: 18px;
-  color: #fdfdfd;
+  font-size: 16px;
+  color: #c7b2b2;
   list-style: none;
   cursor: pointer;
+  margin-bottom: 4px;
 }
 aside > ul li::before {
   content: "-";

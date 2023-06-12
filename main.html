@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/main/main.css">
     <link rel="stylesheet" href="styles/nav/nav.css">
+    <link href="/assets/css/fontawesome.css" rel="stylesheet">
+    <link href="/assets/css/brands.css" rel="stylesheet">
+    <link href="/assets/css/solid.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>IX LO</title>
 </head>
@@ -48,57 +51,45 @@
     </ul>
     <p id="dropd">Z ŻYCIA SZKOŁY</p>
     <ul>
-      <li>111111</li>
-      <li>222222</li>
+      <li>Aktualności</li>
+      <li>Biblioteka</li>
+      <li>prijekty Unijne</li>
+      <li>Nasze Sukcesy</li>
+      <li>Sport i Rekreacja</li>
     </ul>
     <p id="dropd">ORGANIZACJE</p>
+    <ul>
+      <li>Dyrekcja i Nauczyciele</li>
+      <li>Kalendarz roku szkolnego</li>
+      <li>Olimpiady</li>
+      <li id="yyy">Padręczniki</li>
+      <li>Matura</li>
+      <li>konsultacja dla rodziców</li>
+      <li>Rada Rodziców</li>
+      <li>Samorząd Uczniowski</li>
+      <li>Obiady</li>
+      <li>Jadłospis i opłaty</li>
+    </ul>
     <p id="dropd">MULTIMEDIA</p>
+    <ul>
+      <li>Budynek i wnętrza szkoły</li>
+      <li>Spacer 3D</li>
+      <li>Galeria</li>
+      <li>Archiwum wydarzeń</li>
+    </ul>
     <p id="dropd">REKRUTACJA</p>
+    <ul>
+      <li id="ppp">Rok szkolny</li>
+      <li>Dokumenty</li>
+      <li>Ulotka</li>
+    </ul>
     <p id="dropd">KONTAKT</p>
     <p id="dropd">PLAN</p>
-
-
-
-
-
-    <!-- <p id="dropd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">O SZKOLE</p>
-    <ul id="drop_ul" class="dropdown-menu">
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Action</a></li>
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Another action</a></li>
+    <ul>
+      <li>Plan zajęć</li>
+      <li>Dziennik elektroniczny</li>
+      <li>Zastępstwa</li>
     </ul>
-    <p id="dropd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Z ŻYCIA SZKOŁY</p>
-    <ul id="drop_ul" class="dropdown-menu">
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Action</a></li>
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Another action</a></li>
-    </ul>
-    <p id="dropd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ORGANIZACJA</p>
-   <ul id="drop_ul" class="dropdown-menu">
-       <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Action</a></li>
-       <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Another action</a></li>
-   </ul>
-    <p id="dropd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MULTIMEDIA</p>
-    <ul id="drop_ul" class="dropdown-menu">
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Action</a></li>
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Another action</a></li>
-    </ul>
-    <p id="dropd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">REKRUTACJA</p>
-    <ul id="drop_ul" class="dropdown-menu">
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Action</a></li>
-        <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Another action</a></li>
-    </ul>
-    <p id="dropd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">KONTAKT</p>
-   <ul id="drop_ul" class="dropdown-menu">
-       <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Action</a></li>
-       <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Another action</a></li>
-   </ul>
-   <p id="dropd" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PLAN E-DZIENNIK</p>
-  <ul id="drop_ul" class="dropdown-menu">
-      <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Action</a></li>
-      <li id="drop_li"><a id="drop_a" class="dropdown-item" href="#">Another action</a></li>
-  </ul> -->
-
-
-
   </aside>
 
 
@@ -113,11 +104,36 @@
   </section>
 
 
+  <footer>
+    <div id="container">
+      <div id="location">
+        <i class="fa-regular fa-location-dot"></i>
+        <p>IX Liceum Ogólnokształcące w Gdańsku, ul. Wilka-Krzyżanowskiego 6-8, 80-271 Gdańsk</p>
+      </div>
+      <div id="mail">
+        <i class="fa-regular fa-envelope"></i>
+        <p><a href="mailto:sekretariat@zso1.edu.gdansk.pl">sekretariat@zso1.edu.gdansk.pl</a></p>
+      </div>
+
+      <div id="contact">
+        <i class="fa-regular fa-phone"></i>
+        <p>58 341 86 13</p>
+      </div>
+
+      <div id="media">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitch"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <p>©  2023 IX Liceum Ogólnokształcące w Gdańsku. Producer Jakub Myrta</p>
+      </div>
+    </div>
+  </footer>
 
 
 
 
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="scripts/nav.js"></script>
 </body>
