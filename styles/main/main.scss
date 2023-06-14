@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 #main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://bi.im-g.pl/im/b5/11/1c/z29430965AMP,IX-Liceum-Ogolnoksztalcace-w-Gdansku-.jpg');
     background-repeat: no-repeat;
@@ -13,10 +14,15 @@
     justify-content: left;
     align-items: center;
     z-index: 5;
-    margin-bottom: 270px;
+    margin-bottom: 200px;
 }
-footer{
-    z-index: 3;
-    position: fixed;
-    bottom: 0;
+@media screen and (max-width: 1000px) {
+    #main{
+        margin-bottom: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #main{
+        margin-bottom: 400px;
+    }
 }

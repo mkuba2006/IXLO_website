@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+footer {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    min-height: 200px;
+    height: auto;
+    padding: 0 auto;
+    width: 100%;
+    #container {
+        height: auto;
+        min-height: 200px;
+        padding: 0 10%;
+        display: flex;
+        flex-direction: row;
+        background-color: #0f0b0b;
+        #on{
+            min-width: 200px;
+            width: 20vw;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            border-right: 2px solid orchid;
+            a{
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.658);
+                transition: 0.3s;
+            }
+            a:hover{
+                color: orchid;
+            }
+            i{
+                font-size: 40px;
+                color: white;
+                margin-bottom: 10px;
+            }
+            #iii{
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                gap: 10px;
+            }
+            p{
+                color: white;
+            }
+        }
+        #on:last-child {
+            border-right: none; 
+        }
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    p{
+        font-size: 13px;
+    }
+    footer #container #on {
+        padding: 20px 30px;
+    }
+    footer #container #on i{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    p{
+        font-size: 14px;
+    }
+    footer #container {
+        min-height: 400px;
+        flex-wrap: wrap;
+    }
+    footer #container #on {
+        min-width: 50%;
+    }
+    footer #container #on:nth-child(2) {
+        border-right: none; 
+    }
+    footer #container #on i{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 600px) {
+    p{
+        font-size: 11px;
+    }
+    footer #container {
+        min-height: 400px;
+        flex-wrap: wrap;
+    }
+    footer #container #on {
+        min-width: 100%;
+        padding-bottom: 0;
+    }
+    footer #container #on {
+        border-right: none; 
+    }
+    footer #container #on i{
+        font-size: 22px;
+    }
+}
