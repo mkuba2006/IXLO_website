@@ -43,6 +43,12 @@ footer {
                 justify-content: center;
                 flex-direction: row;
                 gap: 10px;
+                i{
+                    transition: 0.3s;
+                }
+                i:hover{
+                    color: #00DFA2;
+                }
             }
             p{
                 color: white;

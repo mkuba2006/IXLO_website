@@ -47,6 +47,12 @@ footer #container #on #iii {
   flex-direction: row;
   gap: 10px;
 }
+footer #container #on #iii i {
+  transition: 0.3s;
+}
+footer #container #on #iii i:hover {
+  color: #00DFA2;
+}
 footer #container #on p {
   color: white;
 }

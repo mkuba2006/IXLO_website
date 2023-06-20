@@ -169,13 +169,23 @@ aside > ul{
   height: auto;
   li{
     font-size: 16px;
-    color: #c7b2b2;
+    color: #dfd0d0;
     list-style: none;
     cursor: pointer;
-    margin-bottom: 4px;
+    transition: 0.3s;
+    margin-bottom: 3px;
   }
   li::before {
-    content: "-";
+    content: "";
+    position: absolute;
+    width: 0%;
+    transform: translateY(23px);
+    height: 2px;
+    background-color: #B4FE98;
+    transition: 0.5s;
+  }
+  li:hover::before {
+    width: 25%;
   }
 }
 .pactive{

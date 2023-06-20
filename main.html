@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main/main.css">
     <link rel="stylesheet" href="styles/nav/nav.css">
+
+    <link rel="stylesheet" href="styles/main/main.css">
+    <link rel="stylesheet" href="styles/main/buttons/buttons.css">
+    <link rel="stylesheet" href="styles/main/wiadomosci/wiadomosci.css">
+    <link rel="stylesheet" href="styles/main/tiles/tiles.css">
     <link rel="stylesheet" href="styles/footer/footer.css">
+
     <link href="/assets/css/fontawesome.css" rel="stylesheet">
     <link href="/assets/css/brands.css" rel="stylesheet">
     <link href="/assets/css/solid.css" rel="stylesheet">
@@ -39,37 +44,37 @@
   <aside>
     <p id="dropd">O SZKOLE</p>
     <ul>
-      <li>Misja</li>
-      <li>Profile</li>
-      <li>Historia</li>
-      <li>Wyniki i EWD</li>
-      <li>Opieka psychologiczna</li>
-      <li>Tutoring i media</li>
-      <li>Wycieczki</li>
-      <li>Współpraca</li>
-      <li>Statut i dokumenty</li>
-      <li>Bip</li>
+      <li>-Misja</li>
+      <li>-Profile</li>
+      <li>-Historia</li>
+      <li>-Wyniki i EWD</li>
+      <li>-Opieka psychologiczna</li>
+      <li>-Tutoring i media</li>
+      <li>-Wycieczki</li>
+      <li>-Współpraca</li>
+      <li>-Statut i dokumenty</li>
+      <li>-Bip</li>
     </ul>
     <p id="dropd">Z ŻYCIA SZKOŁY</p>
     <ul>
-      <li>Aktualności</li>
-      <li>Biblioteka</li>
-      <li>prijekty Unijne</li>
-      <li>Nasze Sukcesy</li>
-      <li>Sport i Rekreacja</li>
+      <li>-Aktualności</li>
+      <li>-Biblioteka</li>
+      <li>-prijekty Unijne</li>
+      <li>-Nasze Sukcesy</li>
+      <li>-Sport i Rekreacja</li>
     </ul>
     <p id="dropd">ORGANIZACJE</p>
     <ul>
-      <li>Dyrekcja i Nauczyciele</li>
-      <li>Kalendarz roku szkolnego</li>
-      <li>Olimpiady</li>
-      <li id="yyy">Padręczniki</li>
-      <li>Matura</li>
-      <li>konsultacja dla rodziców</li>
-      <li>Rada Rodziców</li>
-      <li>Samorząd Uczniowski</li>
-      <li>Obiady</li>
-      <li>Jadłospis i opłaty</li>
+      <li>-Dyrekcja i Nauczyciele</li>
+      <li>-Kalendarz roku szkolnego</li>
+      <li>-Olimpiady</li>
+      <li id="yyy">-Padręczniki</li>
+      <li>-Matura</li>
+      <li>-konsultacja dla rodziców</li>
+      <li>-Rada Rodziców</li>
+      <li>-Samorząd Uczniowski</li>
+      <li>-Obiady</li>
+      <li>-Jadłospis i opłaty</li>
     </ul>
     <p id="dropd">MULTIMEDIA</p>
     <ul>
@@ -80,16 +85,16 @@
     </ul>
     <p id="dropd">REKRUTACJA</p>
     <ul>
-      <li id="ppp">Rok szkolny</li>
-      <li>Dokumenty</li>
-      <li>Ulotka</li>
+      <li id="ppp">-Rok szkolny</li>
+      <li>-Dokumenty</li>
+      <li>-Ulotka</li>
     </ul>
     <p id="dropd">KONTAKT</p>
     <p id="dropd">PLAN</p>
     <ul>
-      <li>Plan zajęć</li>
-      <li>Dziennik elektroniczny</li>
-      <li>Zastępstwa</li>
+      <li>-Plan zajęć</li>
+      <li>-Dziennik elektroniczny</li>
+      <li>-Zastępstwa</li>
     </ul>
   </aside>
 
@@ -101,8 +106,55 @@
 
 
   <section id="main">
+    
+    <section id="buttons">
+      <div id="but">
+        <a class="fancy" href="#">
+          <span class="top-key"></span>
+          <span class="text">Aktualności</span>
+          <span class="bottom-key-1"></span>
+          <span class="bottom-key-2"></span>
+        </a>
+      </div>
+      
+    </section>
+    
+    <section id="tiles">
+      <a id="tile" class="tile">
+        <i id="tile_icon" class="fa-solid fa-calendar-days"></i>
+        <p>Kalendarz</p>
+      </a>
+      <a id="tile" class="tile">
+        <i id="tile_icon" class="fa-solid fa-arrow-pointer"></i>
+        <p>E-Dziennik</p>
+      </a>
+      <a id="tile" class="tile">
+        <i id="tile_icon" class="fa-solid fa-burger"></i>
+        <p>Obiady</p>
+      </div>
+      <a id="tile" class="tile">
+        <i id="tile_icon" class="fa-solid fa-book"></i>
+        <p id="rrr">Podręczniki</p>
+      </a>
+      <a id="tile" class="tile">
+        <i id="tile_icon" class="fa-solid fa-map"></i>
+        <p>Spacer 3D</p>
+      </a>
+    </section>
+
+    <section id="wiadomosci">
+      <i class="fa-light fa-calendar-range"></i>
+    </section>
+
+
 
   </section>
+
+
+
+
+
+
 
 
   <footer>
@@ -139,5 +191,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="scripts/nav.js"></script>
+    <script src="scripts/tiles.js"></script>
 </body>
 </html>

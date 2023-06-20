@@ -67,3 +67,4 @@ const year = new Date().getFullYear();
 console.log(year);
 document.getElementById('ppp').textContent += ' '+ year;
 document.getElementById('yyy').textContent += ' '+ year;
+document.getElementById('rrr').textContent += ' '+ year;
