@@ -2,4 +2,10 @@
   background-color: rgb(187, 57, 57);
   width: 100%;
   min-height: 200px;
+  padding: 50px 100px;
+}
+#wiadomosci p {
+  font-family: "Chillax", sans-serif;
+  color: white;
+  font-size: 50px;
 }/*# sourceMappingURL=wiadomosci.css.map */

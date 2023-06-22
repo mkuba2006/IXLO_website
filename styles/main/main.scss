@@ -12,15 +12,31 @@
     justify-content: left;
     align-items: center;
     z-index: 5;
-    margin-bottom: 600px;
+    margin-bottom: 650px;
+}
+@media screen and (max-width: 1250px) {
+    #main{
+        margin-bottom: 900px;
+    }
 }
 @media screen and (max-width: 1000px) {
     #main{
-        margin-bottom: 400px;
+        margin-bottom: 1100px;
+    }
+}
+@media screen and (max-width: 750px) {
+    #main{
+        margin-bottom: 1350px;
     }
 }
 @media screen and (max-width: 600px) {
     #main{
-        margin-bottom: 400px;
+        margin-bottom: 1350px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #main{
+        margin-bottom: 1500px;
     }
 }
