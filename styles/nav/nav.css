@@ -62,7 +62,7 @@ html {
   height: 150px;
 }
 #nav1 .in-nav {
-  padding: 0.3% 5% 0.3% 5%;
+  padding: 0.3% 8% 0.3% 8%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,7 +83,7 @@ html {
 #nav1 #one img {
   margin-top: 15px;
   width: 310px;
-  min-width: 300px;
+  min-width: 390px;
 }
 @media screen and (max-width: 500px) {
   #nav1 img {
