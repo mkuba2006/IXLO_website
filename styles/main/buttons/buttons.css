@@ -135,6 +135,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-position-x: center;
   background-size: cover;
   height: 90vh;
   width: 100%;

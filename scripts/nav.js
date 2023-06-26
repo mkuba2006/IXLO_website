@@ -13,10 +13,10 @@ const nav_links = navi.querySelectorAll('a');
 const burger = document.querySelector("#burger1");
 burger.addEventListener("click", () => {
   burger.classList.toggle("toggle");
-  navi.classList.toggle("nav_active");
-  nav_links.forEach((link, index) => {
-    link.style.animation = `navLink 0.5s ease forwards ${index / 7}s`;
-  });
+  // navi.classList.toggle("nav_active");
+  // nav_links.forEach((link, index) => {
+  //   link.style.animation = `navLink 0.5s ease forwards ${index / 7}s`;
+  // });
 });
 
 const hrefs = document.querySelectorAll("#secret a");
