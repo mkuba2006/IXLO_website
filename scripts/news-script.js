@@ -16,3 +16,4 @@ for(let i of newses){
     `;
     container.appendChild(div);
 }
+ScrollReveal().reveal('#wiadomosci #news div', {origin: 'left', distance: '10%', interval: 100});

@@ -22,7 +22,7 @@ html {
 }
 #burger1 {
   display: block;
-  z-index: 11;
+  z-index: 21;
   position: fixed;
   right: 80px;
   top: 65px;
@@ -37,7 +37,7 @@ html {
   padding-top: 10%;
   padding-left: 3%;
   transition: all 0.26s ease;
-  z-index: 3;
+  z-index: 20;
 }
 
 
@@ -60,7 +60,7 @@ html {
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   position: fixed;
-  z-index: 10;
+  z-index: 20;
   color: white;
   height: 150px;
   .in-nav {
@@ -89,17 +89,37 @@ html {
         min-width: 390px;
       }
     }
-    @media screen and (max-width: 500px) {
-      img{
-        width: 220px;
-        min-width: 200px;
-        height: 80px;
+    @media screen and (max-width: 540px) {
+      #one{
+        width: 280px;
+        height: 100px;
+        padding: auto 0;
+        display: flex;
+        align-items: center;
+        img{
+          width: 280px;
+          min-width: 200px;
+          height: 80px;
+        }
+      }
+    }
+    @media screen and (max-width: 440px) {
+      #one{
+        width: 240px;
+        height: 100px;
+        padding: auto 0;
+        display: flex;
+        align-items: center;
+        img{
+          width: 240px;
+          min-width: 200px;
+        }
       }
     }
 }
 .overlay{
   position: fixed;
-  z-index: 10;
+  z-index: 20;
   top: 0;
   right: 0;
   bottom: 0;
@@ -117,7 +137,7 @@ body.open .overlay{
 aside{
   color: $alic;
   position: fixed;
-  z-index: 10;
+  z-index: 20;
   top: 0;
   right: 0;
   padding: 20px 0;
@@ -128,6 +148,7 @@ aside{
   box-shadow: 0 0 20px rgb(0 0 0 / 70%);
   translate: 100% 0;
   transition: 0.3s;
+  overflow-x: hidden;
 }
 body.open aside{
   translate: 0;

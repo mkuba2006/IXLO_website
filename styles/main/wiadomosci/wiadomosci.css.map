@@ -1,1 +1,1 @@
-{"version":3,"sources":["wiadomosci.scss","wiadomosci.css"],"names":[],"mappings":"AACA;EACI,kCAAA;EACA,WAAA;EACA,iBAAA;EACA,mBAAA;ACAJ;ADCI;EACI,kCAAA;EACA,YAAA;EACA,eAAA;ACCR","file":"wiadomosci.css"}
+{"version":3,"sources":["wiadomosci.scss","wiadomosci.css"],"names":[],"mappings":"AACA;EACI,kCAAA;EACA,WAAA;EACA,iBAAA;EACA,mBAAA;EACA,WAAA;ACAJ;ADCI;EACI,kCAAA;EACA,YAAA;EACA,eAAA;ACCR;;ADEA;EACI;IACI,kCAAA;IACA,WAAA;IACA,iBAAA;IACA,kBAAA;ECCN;AACF","file":"wiadomosci.css"}
