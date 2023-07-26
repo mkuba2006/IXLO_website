@@ -59,11 +59,11 @@
 }
 @media screen and (max-width: 450px) {
   #main {
-    margin-bottom: 4840px;
+    margin-bottom: 4850px;
   }
 }
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 390px) {
   #main {
-    margin-bottom: 4340px;
+    margin-bottom: 4050px;
   }
 }/*# sourceMappingURL=main.css.map */
