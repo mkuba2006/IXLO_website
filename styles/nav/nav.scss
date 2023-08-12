@@ -25,7 +25,7 @@ html {
   z-index: 21;
   position: fixed;
   right: 80px;
-  top: 65px;
+  top: 50px;
 }
 #burger1 div {
   display: block;
@@ -62,7 +62,7 @@ html {
   position: fixed;
   z-index: 20;
   color: white;
-  height: 150px;
+  height: 130px;
   .in-nav {
     padding: 0.3% 8% 0.3% 8%;
     display: flex;
@@ -79,39 +79,45 @@ html {
     text-decoration: none;
   }
   #one{
-    height: 100px;
+    height: 90px;
     padding: auto 0;
     display: flex;
     align-items: center;
       img{
-        margin-top: 15px;
-        width: 310px;
-        min-width: 390px;
+        width: 290px;
+        min-width: 330px;
       }
     }
     @media screen and (max-width: 540px) {
+
+      .in-nav {
+        padding: 0.3% 4% 0.3% 4%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
       #one{
-        width: 280px;
+        width: 220px;
         height: 100px;
         padding: auto 0;
         display: flex;
         align-items: center;
         img{
-          width: 280px;
+          width: 220px;
           min-width: 200px;
-          height: 80px;
+          height: auto;
         }
       }
     }
     @media screen and (max-width: 440px) {
       #one{
-        width: 240px;
+        width: 220px;
         height: 100px;
         padding: auto 0;
         display: flex;
         align-items: center;
         img{
-          width: 240px;
+          width: 220px;
           min-width: 200px;
         }
       }
@@ -224,6 +230,6 @@ aside > ul{
 @media screen and (max-width: 400px) {
   #burger1 {
     right: 40px;
-    top: 65px;
+    top: 55px;
   }
 }

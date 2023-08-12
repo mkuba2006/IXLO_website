@@ -52,11 +52,6 @@
     margin-bottom: 3015px;
   }
 }
-@media screen and (max-width: 650px) {
-  #main {
-    margin-bottom: 3015px;
-  }
-}
 @media screen and (max-width: 590px) {
   #main {
     margin-bottom: 3020px;
@@ -73,11 +68,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  #main {
-    margin-bottom: 3120px;
-  }
-}
-@media screen and (max-width: 390px) {
   #main {
     margin-bottom: 3120px;
   }
