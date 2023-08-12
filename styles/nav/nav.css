@@ -85,24 +85,6 @@ html {
   min-width: 330px;
 }
 @media screen and (max-width: 540px) {
-  #nav1 #nav1 {
-    -webkit-backdrop-filter: blur(8px);
-            backdrop-filter: blur(8px);
-    font-family: "Indie Flower", cursive;
-    padding-top: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-    width: 100%;
-    position: fixed;
-    z-index: 20;
-    color: white;
-    height: 100px;
-  }
-  #nav1 .in-nav {
-    padding: 0.3% 4% 0.3% 4%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
   #nav1 #one {
     width: 200px;
     height: 100px;
@@ -117,12 +99,6 @@ html {
   }
 }
 @media screen and (max-width: 440px) {
-  #nav1 .in-nav {
-    padding: 0.3% 4% 0.3% 4%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
   #nav1 #one {
     width: 180px;
     height: 100px;
@@ -250,5 +226,29 @@ aside > ul li:hover::before {
   #burger1 {
     right: 40px;
     top: 55px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #nav1 {
+    -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+    font-family: "Indie Flower", cursive;
+    padding-top: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+    z-index: 20;
+    color: white;
+    height: 110px;
+  }
+  #nav1 .in-nav {
+    padding: 0.3% 4% 0.3% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #burger1 {
+    right: 40px;
+    top: 40px;
   }
 }/*# sourceMappingURL=nav.css.map */

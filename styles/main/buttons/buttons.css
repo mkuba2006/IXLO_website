@@ -13,6 +13,11 @@
   justify-content: center;
   z-index: 11;
 }
+@media screen and (max-width: 1000px) {
+  #buttons {
+    background-image: linear-gradient(rgba(26, 26, 26, 0.3), rgba(0, 0, 0, 0.3)), url("https://i0.wp.com/www.gdanskstrefa.com/wp-content/uploads/2020/10/DSCF1397-scaled-e1604104302654.jpg?ssl=1");
+  }
+}
 #buttons #but {
   display: flex;
   justify-content: center;
