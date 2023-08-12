@@ -92,28 +92,34 @@ html {
     justify-content: space-between;
   }
   #nav1 #one {
-    width: 220px;
+    width: 200px;
     height: 100px;
     padding: auto 0;
     display: flex;
     align-items: center;
   }
   #nav1 #one img {
-    width: 220px;
+    width: 200px;
     min-width: 200px;
     height: auto;
   }
 }
 @media screen and (max-width: 440px) {
+  #nav1 .in-nav {
+    padding: 0.3% 4% 0.3% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   #nav1 #one {
-    width: 220px;
+    width: 180px;
     height: 100px;
     padding: auto 0;
     display: flex;
     align-items: center;
   }
   #nav1 #one img {
-    width: 220px;
+    width: 180px;
     min-width: 200px;
   }
 }
