@@ -69,6 +69,11 @@
 }
 @media screen and (max-width: 450px) {
   #main {
+    margin-bottom: 2680px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #main {
     margin-bottom: 3050px;
   }
 }
