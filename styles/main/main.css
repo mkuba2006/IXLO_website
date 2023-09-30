@@ -12,6 +12,15 @@
   margin-bottom: 2050px;
 }
 
+footer::before {
+  content: ".";
+  position: absolute;
+  transform: translateY(-500px);
+  height: 500px;
+  width: 100vw;
+  background-color: #0f0b0b;
+}
+
 @media screen and (max-width: 1735px) {
   #main {
     margin-bottom: 1000px;

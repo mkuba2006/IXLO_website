@@ -14,7 +14,14 @@
     z-index: 15;
     margin-bottom: 2050px;
 }
-
+footer::before{
+    content: '.';
+    position: absolute;
+    transform: translateY(-500px);
+    height: 500px;
+    width: 100vw;
+    background-color: #0f0b0b;
+}
 
 
 @media screen and (max-width: 1735px) {
@@ -52,11 +59,19 @@
         margin-bottom: 2710px;
     }
 }
+
+
+
+
 @media screen and (max-width: 820px) {
     #main{
         margin-bottom: 2690px;
     }
 }
+
+
+
+
 @media screen and (max-width: 750px) {
     #main{
         margin-bottom: 2690px;
