@@ -33,66 +33,66 @@ footer::before {
 }
 @media screen and (max-width: 1250px) {
   #main {
-    margin-bottom: 2070px;
+    margin-bottom: 2020px;
   }
 }
 @media screen and (max-width: 1190px) {
   #main {
-    margin-bottom: 1780px;
+    margin-bottom: 1730px;
   }
 }
 @media screen and (max-width: 1050px) {
   #main {
-    margin-bottom: 1770px;
+    margin-bottom: 1720px;
   }
 }
 @media screen and (max-width: 1000px) {
   #main {
-    margin-bottom: 1910px;
+    margin-bottom: 1900px;
   }
 }
 @media screen and (max-width: 900px) {
   #main {
-    margin-bottom: 2710px;
+    margin-bottom: 2450px;
   }
 }
 @media screen and (max-width: 820px) {
   #main {
-    margin-bottom: 2690px;
+    margin-bottom: 2400px;
   }
 }
 @media screen and (max-width: 750px) {
   #main {
-    margin-bottom: 2690px;
+    margin-bottom: 2570px;
   }
 }
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 600px) {
   #main {
-    margin-bottom: 2900px;
+    margin-bottom: 2570px;
   }
 }
 @media screen and (max-width: 500px) {
   #main {
-    margin-bottom: 2900px;
+    margin-bottom: 2450px;
   }
 }
 @media screen and (max-width: 450px) {
   #main {
-    margin-bottom: 2680px;
+    margin-bottom: 2580px;
   }
 }
 @media screen and (max-width: 400px) {
   #main {
-    margin-bottom: 3050px;
+    margin-bottom: 2600px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
   #main {
-    margin-bottom: 3760px;
+    margin-bottom: 3300px;
   }
 }
 @media screen and (max-width: 300px) {
   #main {
-    margin-bottom: 3830px;
+    margin-bottom: 3600px;
   }
 }/*# sourceMappingURL=main.css.map */

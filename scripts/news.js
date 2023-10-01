@@ -13,7 +13,7 @@ const news =[
     },
     {
         title:'Nowy Dyrektor',
-        img:"https://media.licdn.com/dms/image/C4E22AQF7KbPUIHLF3g/feedshare-shrink_800/0/1656764799386?e=1693440000&v=beta&t=Npe0P7bcXdm36Fl8dz418lCYiGcH8IXQJ2t6MYzBBjE",
+        img:"https://media.licdn.com/dms/image/C4E22AQF7KbPUIHLF3g/feedshare-shrink_800/0/1656764799386?e=1698883200&v=beta&t=Z1v8-vVQgmRrLK00z8SxAgxFNH7Wv4FyaczeBTPsV_U",
         discription:'Wraz z dniem 1 wrześnai 2024 roku, nowym dyrektorem zostanie Zygmunt Pilarek',
         data:'24 czerwca 2023',
     },
