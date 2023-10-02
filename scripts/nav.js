@@ -37,8 +37,8 @@ const ul = document.querySelectorAll("body > aside > ul");
 
 const toggleMenu = () => {
   document.body.classList.toggle('open');
-  const aside = document.querySelectorAll('aside p');
-  ScrollReveal().reveal(aside, {origin: 'left', distance: '100%', interval: 100});
+  // const aside = document.querySelectorAll('aside p');
+  // ScrollReveal().reveal(aside, {origin: 'left', distance: '100%', interval: 100});
 } 
 
 p.forEach(a=>{
