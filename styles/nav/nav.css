@@ -35,6 +35,7 @@ html {
   padding-left: 3%;
   transition: all 0.26s ease;
   z-index: 20;
+  border-radius: 50px;
 }
 
 #burger1 #jeden,
