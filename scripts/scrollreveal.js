@@ -1,12 +1,6 @@
 ScrollReveal().reveal('#one img', {origin: 'left', distance: '10%'});
 
 
-const bur = document.getElementById('burger1');
-bur.addEventListener('click',()=>{
-    console.log('click');
-    ScrollReveal().reveal('#but a', {origin: 'left', distance: '10%', delay:'200'});
-})
-
 
 
 
