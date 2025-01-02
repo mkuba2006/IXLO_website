@@ -223,6 +223,36 @@ aside > ul li:hover::before {
   align-items: start;
 }
 
+@media screen and (max-width: 1300px) {
+  #nav1 {
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    height: 105px;
+  }
+  #nav1 .in-nav {
+    padding: 0 8% 0 8%;
+  }
+  #nav1 #one {
+    height: 90px;
+    padding: auto 0;
+    display: flex;
+    align-items: center;
+  }
+  #nav1 #one img {
+    width: 280px;
+    min-width: 280px;
+  }
+  #burger1 {
+    display: block;
+    z-index: 21;
+    position: fixed;
+    right: 80px;
+    top: 36px;
+  }
+}
 @media screen and (max-width: 400px) {
   #burger1 {
     right: 40px;
@@ -234,13 +264,13 @@ aside > ul li:hover::before {
     -webkit-backdrop-filter: blur(8px);
             backdrop-filter: blur(8px);
     font-family: "Indie Flower", cursive;
-    padding-top: 5px;
+    padding-top: 0;
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     position: fixed;
     z-index: 20;
     color: white;
-    height: 110px;
+    height: 100px;
   }
   #nav1 .in-nav {
     padding: 0.3% 4% 0.3% 4%;
@@ -250,6 +280,6 @@ aside > ul li:hover::before {
   }
   #burger1 {
     right: 40px;
-    top: 40px;
+    top: 32px;
   }
 }/*# sourceMappingURL=nav.css.map */
