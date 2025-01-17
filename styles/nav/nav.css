@@ -282,4 +282,13 @@ aside > ul li:hover::before {
     right: 40px;
     top: 32px;
   }
+}
+@media screen and (max-width: 360px) {
+  #nav1 .in-nav {
+    padding: 0.3% 2% 0.3% 2%;
+  }
+  #nav1 .in-nav #one img {
+    width: 230px;
+    min-width: 230px;
+  }
 }/*# sourceMappingURL=nav.css.map */

@@ -291,3 +291,18 @@ aside > ul{
     top: 32px;
   }
 }
+
+
+@media screen and (max-width: 360px) {
+  #nav1 {
+    .in-nav {
+      padding: 0.3% 2% 0.3% 2%;
+    #one{
+        img{
+          width: 230px;
+          min-width: 230px;
+        }
+      }
+  }
+}
+}
