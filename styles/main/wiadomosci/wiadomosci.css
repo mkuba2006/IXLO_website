@@ -20,7 +20,7 @@
   }
 }
 @media screen and (max-width: 400px) {
-  #wiadomosci p {
+  #wiadomosci #title p {
     text-align: center;
     font-size: 40px;
   }
