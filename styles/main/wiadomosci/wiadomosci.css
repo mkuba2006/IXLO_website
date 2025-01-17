@@ -18,4 +18,10 @@
     min-height: 200px;
     padding: 50px 20px;
   }
+}
+@media screen and (max-width: 400px) {
+  #wiadomosci p {
+    text-align: center;
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=wiadomosci.css.map */
